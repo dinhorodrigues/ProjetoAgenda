@@ -11,16 +11,16 @@
 
     <title>Login Agenda</title>
 
-    <!-- Principal CSS do Bootstrap -->
+   
     <link href="${pageContext.request.contextPath}/bootstrap/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Estilos customizados para esse template -->
     <link href="${pageContext.request.contextPath}/bootstrap/css/signin.css"rel="stylesheet">
   </head>
 
   <body class="text-center">
     <form class="form-signin" action="LoginController" method="POST">
-    
+	<div class="alert alert-danger" role="alert">
+  		${inte}
+	</div>    
 	
       <img class="mb-4" src="../../assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
       <h1 class="h3 mb-3 font-weight-normal">Login Usuário</h1>
